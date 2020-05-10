@@ -1,6 +1,6 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import { colorBase, colorText } from '../config/assets';
+import { colorBase, colorText } from 'Config/assets';
 const Stack = createStackNavigator();
 
 const screenOptions = {
@@ -11,8 +11,8 @@ const screenOptions = {
   headerTintColor: colorText
 }
 
-import Welcome from '../screens/Welcome'
-import Login from '../screens/Login'
+import Welcome from 'Screens/Welcome';
+import Login from 'Screens/Login';
 
 export default function Routes() {
   return (

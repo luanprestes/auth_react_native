@@ -1,7 +1,7 @@
 import React from 'react';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
 import { StatusBar } from 'react-native';
-import { ScreenStyle } from '../styles/Layout';
+import { ScreenStyle } from 'Components/styles/Layout';
 
 export default function Screen (props: any) {
   return (

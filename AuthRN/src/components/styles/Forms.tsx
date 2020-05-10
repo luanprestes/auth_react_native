@@ -1,5 +1,5 @@
 import styled from 'styled-components/native';
-import { colorBase, colorText } from '../../config/assets';
+import { colorBase, colorText } from 'Config/assets';
 
 export const InputStyle = styled.TextInput.attrs({
   placeholderTextColor: colorText
