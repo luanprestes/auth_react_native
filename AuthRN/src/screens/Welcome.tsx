@@ -1,7 +1,7 @@
 import React from 'react';
 import { TitleStyle } from 'Components/styles/Layout';
 import { ButtonStyle, TextButtonStyle } from 'Components/styles/Forms';
-import Screen from 'Components/Screen';
+import Screen from 'Components/screen';
 
 export default function Welcome (props:any) {
   

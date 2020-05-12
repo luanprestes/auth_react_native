@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { TitleStyle } from 'Components/styles/Layout';
 import { InputStyle, ButtonStyle, TextButtonStyle } from 'Components/styles/Forms';
-import Screen from 'Components/Screen';
+import Screen from 'Components/screen';
 
 export default function Login () {
   const [email, setEmail] = useState<string>('');

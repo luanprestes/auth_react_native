@@ -7,6 +7,7 @@
       "Config": ["Config"],
       "Routes": ["Routes"],
       "Screens": ["Screens"],
+      "Store": ["Store"],
     },
     "jsx": "react-native",
     "lib": ["dom", "esnext"],

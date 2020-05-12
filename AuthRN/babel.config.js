@@ -11,6 +11,7 @@ module.exports = function(api) {
             Config: './src/Config',
             Routes: './src/Routes',
             Screens: './src/Screens',
+            Store: './src/Store',
           },
         },
       ],
