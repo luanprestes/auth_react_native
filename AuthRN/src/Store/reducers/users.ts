@@ -3,11 +3,12 @@ const INITIAL_STATE = {
 }
 
 function storeUser(state = INITIAL_STATE, action:any) {
+
   switch (action.type) {
-    case 'LOG_USER': 
+    case 'USER_AUTH': 
       return { 
         ...state, 
-        user: action.user 
+        user: action.payload 
       }
     default:
       return state

@@ -1,7 +1,7 @@
 import React from 'react';
 import { TitleStyle } from 'Components/styles/Layout';
-import { ButtonStyle, TextButtonStyle } from 'Components/styles/Forms';
 import Screen from 'Components/screen';
+import ButtonDefault from 'Components/buttons/default'
 
 export default function Welcome (props:any) {
   
@@ -13,17 +13,12 @@ export default function Welcome (props:any) {
     <Screen>
       <TitleStyle>Bem vindo ao APP :)</TitleStyle>
 
-      <ButtonStyle onPress={() => onNavigate('Login')}> 
-        <TextButtonStyle>
-          Fazer login
-        </TextButtonStyle>
-      </ButtonStyle>
+      <ButtonDefault 
+        text='Fazer login' 
+        onPress={() => onNavigate('Login')}
+      />
 
-      <ButtonStyle> 
-        <TextButtonStyle>
-          Cadastre-se
-        </TextButtonStyle>
-      </ButtonStyle>
+      <ButtonDefault text='Cadastre-se' />
 
     </Screen>
   )

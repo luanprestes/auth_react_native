@@ -13,6 +13,7 @@ const screenOptions = {
 
 import Welcome from 'Screens/Welcome';
 import Login from 'Screens/Login';
+import Home from 'Screens/Home';
 
 export default function Routes() {
   return (
@@ -25,6 +26,12 @@ export default function Routes() {
         name="Welcome" 
         component={Welcome} 
         options={{ title: 'Bem Vindo' }} 
+      />
+
+      <Stack.Screen 
+        name="Home" 
+        component={Home} 
+        options={{ title: 'Home' }} 
       />
 
       <Stack.Screen 
